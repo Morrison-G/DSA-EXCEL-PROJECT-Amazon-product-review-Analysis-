@@ -21,3 +21,4 @@ Some data cleaning steps were applied to make the dataset proper for analysis wi
 ### Product Name Column: cleaned using Proper & Left function (nesting), removing extra spacing in names.
 ### Category Column: cleaned using Left and Find function. The delimiter used was “|”.
 ### Helper columns: calculated columns and category columns were used in generating the Dashboard.
+![Clean dashboard view](https://github.com/user-attachments/assets/9663ea4f-038f-47d4-9a89-d00db0fbc4a9)
