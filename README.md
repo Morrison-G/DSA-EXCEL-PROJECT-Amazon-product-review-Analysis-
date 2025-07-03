@@ -148,4 +148,10 @@ Values: Discount % → Max
 
 ![Screenshot 2025-07-02 160159](https://github.com/user-attachments/assets/4ff2cdaa-76d6-436f-94e3-97cec950911b)
 
+
+## Section Details
+### Column Names: Product name, Category, Discounted price, Actual price, Average discount, Discount percentage, Product discount of 50% & more, Rating review, Total potential revenue, Price bucket, Rating, Product ratings & Reviews combined, Rating count.
+### Excel formulas used: LEFT() FIND() PROPER() IF() 
+
+## Analytics Dashboard
 ![Analystics Dashboard](https://github.com/user-attachments/assets/c5846baf-0118-4e01-9b4d-98e9f75c3d97)
