@@ -135,3 +135,17 @@ Values: Discount % → Max
 
 
 14.	 Top 5 products by rating + number of reviews combined.
+    
+![Screenshot 2025-07-02 182430](https://github.com/user-attachments/assets/63667cce-d904-43e0-b17b-6eb05092d0e5)
+
+![Screenshot 2025-07-02 160854](https://github.com/user-attachments/assets/7bc3e43d-cb73-472c-8bc5-ebf14ad77704)
+
+![Screenshot 2025-07-02 160725](https://github.com/user-attachments/assets/275826ad-f679-4498-a691-88d1165345e9)
+
+![Screenshot 2025-07-02 160544](https://github.com/user-attachments/assets/4e4cfe09-41e0-450d-a8d2-75e57197e769)
+
+![Screenshot 2025-07-02 160440](https://github.com/user-attachments/assets/3aed0a07-c934-4ec0-bb31-f15a710869a4)
+
+![Screenshot 2025-07-02 160159](https://github.com/user-attachments/assets/4ff2cdaa-76d6-436f-94e3-97cec950911b)
+
+![Analystics Dashboard](https://github.com/user-attachments/assets/c5846baf-0118-4e01-9b4d-98e9f75c3d97)
