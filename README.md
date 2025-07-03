@@ -32,7 +32,7 @@ Rows: Category
 Values: Discount % → summarize by Average
 
 3.	How many products are listed under each category?
-4.	
+   
 Rows: Category
 Values: Product Name → set to Count (Distinct)
 
