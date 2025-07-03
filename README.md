@@ -31,45 +31,56 @@ Add a calculated column:
 Rows: Category
 Values: Discount % → summarize by Average
 
-3.	How many products are listed under each category?
+2.	How many products are listed under each category?
    
 Rows: Category
 Values: Product Name → set to Count (Distinct)
 
-6.	Total number of reviews per category
+3.	Total number of reviews per category
 Use Rating Count column
 
 Rows: Category
 Values: Rating Count → Sum
 
-8.	Which products have the highest average ratings
+4.	Which products have the highest average ratings
 Sort your dataset by the Average Rating column (descending)
 Pick top entries
-9.	 Average actual price vs discounted price by category
+
+5.	 Average actual price vs discounted price by category
+   
 Rows: Category
 Values: Actual Price → Average
 Discounted Price → Average
-10.	Which products have the highest number of reviews
+
+6.	Which products have the highest number of reviews
 Sort Rating Count column in descending order
-11.	How many products have a discount of 50% or more?
+
+7.	How many products have a discount of 50% or more?
 Add calculated column:
 =IF (Discount % >= 50, "Yes", "No")
 Then use filter in your Pivot table
-12.	Distribution of product ratings
+
+8.	Distribution of product ratings
+   
 Rows: Rating (rounded if needed)
-Values: Product Name → Count.  
-13.	Total potential revenue by category (Actual Price × Rating Count)
+Values: Product Name → Count.
+
+9.	Total potential revenue by category (Actual Price × Rating Count)
 Add calculated column:
 =Actual Price * Rating Count
+
 Rows: Category
 Values: Potential Revenue → Sum
-14.	 Number of unique products per price range bucket
+
+10.	 Number of unique products per price range bucket
 Create new column Price Bucket:
 Excel formula=IF(Discounted Price < 200, "<₹200",
    IF(Discounted Price <= 500, "₹200–₹500", ">₹500")) (they should take note of the symbol for some systems)
+
 Rows: Price Bucket
 Values: Product Name → Count
-15.	How does the rating relate to the level of discount?
+
+11.	How does the rating relate to the level of discount?
 Create a scatter chart:
 X-axis: Discount %
 Y-axis: Average Rating. (i am not sure if all excel version has scatter chat.).   alternative to scatter chat, this is a longer route thou. (take your time and you'll get it.) Line Chart (Grouped by Discount Ranges)
@@ -79,14 +90,19 @@ Create a new column that groups Discount % into buckets like:
 excel formula=IF([@Discount%]<=10, "0-10%",
   IF([@Discount%]<=20, "11-20%",
   IF([@Discount%]<=30, "21-30%", ...)))
+
 Rows: Discount Bucket
 Values: Average Rating → summarize as Average
 Insert a line chart to show trend of average rating across discount buckets
-16.	How many products have fewer than 1,000 reviews?
+
+12.	How many products have fewer than 1,000 reviews?
 Filter Rating Count < 1000
 Use COUNT or check the status bar, count is there.
-17.	 Which categories have products with the highest discounts
+
+13.	 Which categories have products with the highest discounts
 Use the earlier Discount % column
+
 Rows: Category
 Values: Discount % → Max
-18.	 Top 5 products by rating + number of reviews combined.
+
+14.	 Top 5 products by rating + number of reviews combined.
