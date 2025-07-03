@@ -155,3 +155,12 @@ Values: Discount % → Max
 
 ## Analytics Dashboard
 ![Analystics Dashboard](https://github.com/user-attachments/assets/c5846baf-0118-4e01-9b4d-98e9f75c3d97)
+
+## **Findings**
+1.	Total potential revenues was 81bn, with most coming from some category.
+2.	Electronics had the highest number of Rating count.
+3.	Ratings were mostly high from 4.0 – 5.0.
+4.	More than 50% products had discounts of 50% & more.
+
+## **Conclusion**
+Using Excel to generate business ready insight from identifying, understanding and knowing pricing impacts that affects revenue, when explored correctly.
