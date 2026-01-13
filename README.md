@@ -28,11 +28,6 @@ Product details: name, category, price, discount, and ratings.
 Add a calculated column:
 = (Actual Price - Discounted Price) / Actual Price * 100
 
-
-![TRIBE](https://github.com/user-attachments/assets/a73dc275-7ef6-4941-8cff-c6e1083b3209)
-
-
-
 Rows: Category
 
 Values: Discount % → summarize by Average
